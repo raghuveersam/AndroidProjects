@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ContactList</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="createcontact_text">Create Contact</string>
+    <string name="editcontact_text">Edit Contact</string>
+    <string name="deletecontact_text">Delete Contact</string>
+    <string name="displaycontact_text">Display Contact</string>
+    <string name="finish_text">Finish</string>
+    <string name="title_activity_create_contact">CreateContact</string>
+    <string name="title_activity_edit_contact">EditContact</string>
+    <string name="title_activity_delete_contact">DeleteContact</string>
+    <string name="title_activity_view_contact">ViewContact</string>
+    <string name="selectcontact_label">Select contact</string>
+    <string name="save_lable">Save</string>
+    <string name="cancel_lable">cancel</string>
+    <string name="selectcontact_lable">Select contact</string>
+    <string name="delete_lable">Delete</string>
+    <string name="cancellable">cancel</string>
+    <string name="savelable">Save</string>
+    <string name="canceltext_lable">cancel</string>
+    <string name="finish_lable">Finish</string>
+
+</resources>

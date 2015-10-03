@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context="com.example.raghuveer.contactlist.DeleteContact">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/selectcontact_lable"
+        android:onClick="onclickSelectcontact" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Name"
+        android:maxLength="50"
+        android:id="@+id/name_id"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:id="@+id/phonenumber_id"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Email"
+        android:id="@+id/email_id"/>
+
+    <ImageView
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:paddingTop="15dp"
+        android:src="@drawable/avatarimage"
+        android:layout_gravity="center"
+        android:id="@+id/image_upload"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/delete_lable"
+            android:onClick="onclickDelete"
+            android:id="@+id/deletebutton_id"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancellable"
+            android:onClick="onclickCancel"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

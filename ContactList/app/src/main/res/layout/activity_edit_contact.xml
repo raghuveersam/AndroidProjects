@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context="com.example.raghuveer.contactlist.EditContact">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/selectcontact_label"
+        android:onClick="onclickselectcontact"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Name"
+        android:maxLength="50"
+        android:id="@+id/name_id"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:maxLength="10"
+        android:id="@+id/phonenumber_id"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Email"
+        android:id="@+id/email_id"/>
+
+    <ImageView
+        android:id="@+id/image_upload"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:paddingTop="15dp"
+        android:src="@drawable/avatarimage"
+        android:layout_gravity="center"
+        android:onClick="uploadImage"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/save_lable"
+            android:onClick="onClickEdit"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel_lable"
+            android:onClick="doCancel"/>
+
+    </LinearLayout>
+</LinearLayout>

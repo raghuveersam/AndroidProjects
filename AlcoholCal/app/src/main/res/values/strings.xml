@@ -1,0 +1,25 @@
+<!-- Homework 1
+strings.xml
+Raghuveer Sampath Krishnamurthy, John OConnor -->
+
+<resources>
+    <string name="app_name">BAC Calculator</string>
+    <string name="weight_name">Enter weight</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="weight_label">Weight(lbs)</string>
+    <string name="text_display">Enter Weight</string>
+    <string name="gender_label">Gender</string>
+    <string name="textlabel">Save</string>
+    <string name="drinklable">Drink Size</string>
+    <string name="oneozlable">1 oz</string>
+    <string name="fiveozlable">5 oz</string>
+    <string name="twelveozlable">12 oz</string>
+    <string name="alcohollable">Alcohol %</string>
+    <string name="adddrinklable">Add Drink</string>
+    <string name="resetlable">Reset</string>
+    <string name="baclable">BAC Level : 0.00</string>
+    <string name="statuslable">Your Status:   </string>
+    <string name="labledisplay"> You\'re Safe</string>
+    <string name="MFlable">M</string>
+</resources>

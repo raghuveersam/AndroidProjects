@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    tools:context="com.example.raghuveer.contactlist.ViewContact">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:id="@+id/nametext_id"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:id="@+id/phonenumbertext_id"
+        android:onClick="makeCall"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:id="@+id/emailtext_id"
+        android:onClick="sendEmail"/>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:paddingTop="15dp"
+        android:src="@drawable/avatarimage"
+        android:layout_gravity="center"
+        android:id="@+id/image_upload"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="7dp"
+            android:src="@drawable/rewind"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/backward_id"
+            android:onClick="onclickBackward"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="7dp"
+            android:src="@drawable/menu_left"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/menuleft_id"
+            android:onClick="onclickMenuleft"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="@string/finish_lable"
+            android:onClick="onclickFinish"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="7dp"
+            android:src="@drawable/menu_right"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/menuright_id"
+            android:onClick="onclickMenuright"/>
+        <ImageButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="7dp"
+            android:src="@drawable/fast_forward"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/fastforard_id"
+            android:onClick="onclickForward"
+            />
+    </LinearLayout>
+</LinearLayout>

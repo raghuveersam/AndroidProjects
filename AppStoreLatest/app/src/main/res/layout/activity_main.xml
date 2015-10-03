@@ -1,0 +1,92 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     tools:context=".MainActivity">
+
+
+
+        <TextView android:text="@string/audiobook_label"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_height="wrap_content"
+            android:id="@+id/audioid"
+            android:onClick="OnClick"
+            android:layout_marginTop="40dp" />
+
+        <TextView android:text="@string/books_labek"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:layout_height="wrap_content"
+            android:onClick="OnClick"
+            android:id="@+id/bookid"
+            android:layout_marginTop="40dp" />
+
+
+    <TextView android:text="@string/macapp_lable"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="OnClick"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_height="wrap_content"
+        android:id="@+id/mac_id"
+        android:layout_marginTop="40dp" />
+
+    <TextView android:text="Movies"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="OnClick"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_height="wrap_content"
+        android:id="@+id/movies_id"
+        android:layout_marginTop="40dp" />
+
+    <TextView android:text="@string/itunes_lable"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="OnClick"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_height="wrap_content"
+        android:id="@+id/itunes_id"
+        android:layout_marginTop="40dp" />
+
+
+    <TextView android:text="@string/iosapp_label"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="OnClick"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_height="wrap_content"
+        android:id="@+id/iosapps_id"
+        android:layout_marginTop="40dp" />
+
+    <TextView android:text="@string/podcast_label"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="OnClick"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_height="wrap_content"
+        android:id="@+id/poscast_id"
+        android:layout_marginTop="40dp" />
+
+    <TextView android:text="@string/tvshows_lable"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="OnClick"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvshows_id"
+        android:layout_marginTop="40dp" />
+
+</LinearLayout>
+    </ScrollView>
+
