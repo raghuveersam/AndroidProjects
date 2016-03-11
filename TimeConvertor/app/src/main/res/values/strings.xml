@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">In class2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="colon_label">:</string>
+    <string name="Min_lable">Minutes</string>
+    <string name="Hrs_lable">HOURS</string>
+    <string name="AmPmLable">AM/PM</string>
+    <string name="AmLable">AM</string>
+    <string name="Button_EST_Lable">Eastern Standard Time (EST)</string>
+</resources>

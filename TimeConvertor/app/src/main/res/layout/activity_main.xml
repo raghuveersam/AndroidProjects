@@ -1,0 +1,153 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="UTC:"
+        android:id="@+id/utc_label" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:hint="@string/Hrs_lable"
+        android:textSize="20dp"
+        android:id="@+id/Hr_id"
+        android:inputType="number"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text=":"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/Min_lable"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/Mn_id"
+        android:inputType="number"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/AmLable"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:id="@+id/AP_id"
+        />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="20dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/AmPmLable"
+        android:textSize="20dp"
+        />
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:checked="false"
+        android:id="@+id/switch_id"
+        />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Results :"
+            android:textSize="25dp"
+            android:id="@+id/result_id"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ans_id"
+            android:textSize="25dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Prs_id"
+            android:paddingLeft="25dp"
+            />
+    </LinearLayout>
+</LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clear all"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/Clear_id"
+            android:onClick="onclear"
+            />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Central Standard Time (CST)"
+        android:layout_above="@+id/MST_id"
+        android:id="@+id/CST_id"
+        android:onClick="onclick"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Moutain Standard Time (MST)"
+        android:id="@+id/MST_id"
+        android:layout_above="@+id/PST_id"
+        android:onClick="onclick"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pacific Standard Time (PST)"
+        android:layout_above="@+id/Clear_id"
+        android:id="@+id/PST_id"
+        android:onClick="onclick"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eastern Standard Time (EST)"
+        android:layout_above="@+id/CST_id"
+        android:id="@+id/EST_id"
+        android:onClick="onclick"
+        />
+</RelativeLayout>
