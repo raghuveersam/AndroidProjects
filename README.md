@@ -35,3 +35,12 @@ frame their own question and modify it accordingly. Results are displayed once t
 5) TimeConvertor --This application converts the UTC (Universal time coordinated) to various timezones ( EST,CST,MST,PST)
 
 ![screenshot1](https://cloud.githubusercontent.com/assets/10491786/9706963/6c4636ce-54c6-11e5-9ee1-a1f684b47611.png)      ![screenshot2](https://cloud.githubusercontent.com/assets/10491786/9706965/6fbb7206-54c6-11e5-84b1-cacd3884aebe.png)                   ![screenshot3](https://cloud.githubusercontent.com/assets/10491786/9706966/7669515e-54c6-11e5-81c4-c5976510df7c.png)
+
+6) TedRadioHourPodcast --This app allows users to listen to TedRadio podcasts. The User interface is in Recycler -Listview and Recycler- Grid view. Users can stream audio in this app from TedRadio.
+
+<img width="180" alt="screenshot_20160311-011649" src="https://cloud.githubusercontent.com/assets/14880033/13694967/62c708a4-e728-11e5-9e81-6755c29a9247.png">
+<img width="180" alt="screenshot_20160311-011701" src="https://cloud.githubusercontent.com/assets/14880033/13694968/63fa3d40-e728-11e5-934d-eb02a3e1b21e.png">
+<img width="180" alt="screenshot_20160311-011957" src="https://cloud.githubusercontent.com/assets/14880033/13694970/6724f5be-e728-11e5-92b4-98b4390e0504.png">
+<img width="180" alt="screenshot_20160311-012007" src="https://cloud.githubusercontent.com/assets/14880033/13694971/68acb598-e728-11e5-8403-0b113a295c5f.png">
+<img width="180" alt="screenshot_20160311-012057" src="https://cloud.githubusercontent.com/assets/14880033/13694976/6b963be4-e728-11e5-9775-79ec01f2b037.png">
+
